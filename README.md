@@ -1,5 +1,5 @@
 # About
-This project is based of Ben Awad's Slack Clone series on YouTube. Meant as an enhancement to my back-end and full-stack knowledge.
+This project is based of Ben Awad's Slack Clone series on YouTube and is purely made for enhancing my full-stack knowledge.
 
 Tech stack: 
 - Node.js
