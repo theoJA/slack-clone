@@ -1,5 +1,5 @@
 # About
-Meant as a learning experience for enhancing my full-stack knowledge (based of Ben Awad's YouTube series)
+This project is based of Ben Awad's Slack Clone series on YouTube. Meant as an enhancement to my back-end and full-stack knowledge.
 
 Tech stack: 
 - Node.js
