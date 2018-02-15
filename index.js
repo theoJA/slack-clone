@@ -20,4 +20,7 @@ app.use(graphqlEndpoint, bodyParser.json(), graphqlExpress({ schema }));
 
 app.use('/graphiql', graphiqlExpress({ endpointURL: graphqlEndpoint }));
 
-app.listen(8080);
+// sync() will create all table if they doesn't exist in database
+models.sequelize.sync().then(() => {
+    app.listen(8080);
+})
