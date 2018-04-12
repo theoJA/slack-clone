@@ -5,7 +5,7 @@ export default (sequelize, DataTypes) => {
             unique: true,
         },
 
-    }, { underscored: true});
+    });
 
     Team.associate = (models) => {
         Team.belongsToMany(models.User, {

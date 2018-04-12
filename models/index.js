@@ -3,7 +3,9 @@ import Sequelize from 'sequelize';
 //sequelize instance will connect to our database
 const sequelize = new Sequelize('slack', 'postgres', 'postgres', {
     dialect: 'postgres',
-    underscored: true, 
+    define: {
+      underscored: true, 
+    },
 });
 
 const models = {
