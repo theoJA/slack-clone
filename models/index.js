@@ -1,6 +1,7 @@
 import Sequelize from 'sequelize';
 
 //sequelize instance will connect to our database
+// entire index.js code taken directly from express-example/models/index.js
 const sequelize = new Sequelize('slack', 'postgres', 'postgres', {
     dialect: 'postgres',
     define: {
@@ -25,4 +26,4 @@ Object.keys(models).forEach(modelName => {
 models.sequelize = sequelize;
 models.Sequelize = Sequelize;
 
- export default models;
+export default models;
